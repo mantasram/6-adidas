@@ -9,7 +9,7 @@ _28 group website project_
 
 This project is for educational purposes only.
 
-Site published at 
+Site published at https://mramo21.github.io/6-adidas/
 
 Design [Sign up](https://cdn.discordapp.com/attachments/833468929020133416/837382482030100510/unknown.png)
 
