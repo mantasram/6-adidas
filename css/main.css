@@ -10,11 +10,18 @@ body * {
 
 body {
     background-color: rgb(229, 230, 247);
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
 }
 
 header {
     display: inline-block;
     width: 1200px;
+    height: 70px;
     margin-left: calc(50% - 600px);
 
 }
@@ -23,12 +30,18 @@ header {
     display: inline-block;
     float: left;
     height: 50px;
+    margin-top: 10px;
+    margin-left: 15px;
 
+}
+
+.top-bar {
+    float: right;
 }
 
 .header-nav {
     display: inline-block;
-    float: right;
+    float: left;
     margin-top: 16px;
     text-transform: uppercase;
     font-weight: bold ;
@@ -37,28 +50,95 @@ header {
 }
 
 .header-nav > a {
+    display: inline-block;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
+    line-height: 35px;
+    margin-right: 40px;
 
+}
+
+.header-nav > a:hover {
+    color: #bb051e;
 }
 
 .header-icon-bar {
     display: inline-block;
-    float: right;
-    margin-top: 16px;
+    float: left;
+    margin-top: 23px;
+    margin-right: 10px;
+    line-height: 35px;
 
 }
 
 .header-icon-bar > a {
-    color: black;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding-left: 15px;
+
+}
+
+.header-icon-bar > a:hover {
+    color: #bb051e;
 }
 
 main {
     display: inline-block;
     width: 1200px;
     margin-left: calc(50% - 600px);
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    width: 500px;
+    float: left;
+    top: 150px;
+    font-size: 30px;
+}
+
+.text-block > h1 {
+    color: #bb051e;
+    font-size: 80px;
+}
+
+.text-block > p {
+    color: #6b737e
+}
+
+.price {
+    color: #6b737e;
+    margin-top: 10px;
 }
 
 .main-img {
+    position: absolute;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 100px;
 
+}
+
+.button {
+    float: left;
+    margin-top: 450px;
+    padding: 14px 40px;
+    background-color: #bb051e;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+span {
+
+}
+
+.arrow-button {
+    float: left;
+    padding: 14px 20px;
+    background-color: black;
+    color: white;
+    margin-top: 450px;
+    
 }
