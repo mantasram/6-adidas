@@ -178,6 +178,7 @@ span {
     color: #bb051e;
     font-size: 13px;
     font-weight: bold;
+    
 
 }
 
@@ -202,7 +203,7 @@ span {
     display: block;
     width: 50%;
     height: 3px;
-    background-color: #bb051e;
+
 }
 
 .red-bar2 {
@@ -210,8 +211,9 @@ span {
     display: block;
     width: 50%;
     height: 3px;
+    background-color: #bb051e;
 }
 
-.red-bar2:hover {
+.red-bar1:hover {
     background-color: rgb(19, 19, 19);
 }
