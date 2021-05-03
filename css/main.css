@@ -136,10 +136,6 @@ main {
     background-color: black;
 }
 
-span {
-
-}
-
 .arrow-button {
     float: left;
     padding: 14px 20px;
@@ -178,10 +174,6 @@ span {
     left: 0px;
     width: 200px;
     height: 50px;
-}
-
-.bar-numbers {
-
 }
 
 .pirmas-page {
